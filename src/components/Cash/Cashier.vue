@@ -41,7 +41,7 @@ export default {
     isAvailable() {
       return this.papers.some(paper => this.entry % paper == 0);
     },
-    getCash(e) {
+    getCash() {
       this.result = [];
 
       var entry = this.entry;
